@@ -90,6 +90,7 @@
 				"_____Sources_" /* Sources */,
 				"____Products_" /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
 		};
 		"____Products_" /* Products */ = {
@@ -180,7 +181,7 @@
 				LastUpgradeCheck = 9999;
 				TargetAttributes = {
 					"______Target_Swiftline" = {
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -252,7 +253,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Swiftline;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -269,7 +270,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};

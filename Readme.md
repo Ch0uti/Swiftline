@@ -65,9 +65,9 @@ Ask, Choose and Agree are used to prompt the user for more information.
 ### Ask
 Ask presents the user with a prompt and waits for the user input.
 ```swift
-let userName = ask("Enter user name?")
+let username = ask("Enter username?")
 ```
-`userName` will contain the name entered by the user
+`username` will contain the name entered by the user
 
 Ask can be used to ask for value of Int, Double or Float types, to ask for an integer for example:
 
