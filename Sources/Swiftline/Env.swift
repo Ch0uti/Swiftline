@@ -54,10 +54,7 @@ public class Env {
    Clear all the enviromenment variables
    */
   public static func clear() {
-    self.keys
-      .map { String($0) }
-      .filter { $0 != nil }
-      .forEach{ self.set($0!, nil) }
+    self.keys.forEach{ self.set($0, nil) }
   }
   
   /**
